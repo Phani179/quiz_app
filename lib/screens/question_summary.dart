@@ -39,11 +39,11 @@ class QuestionSummary extends StatelessWidget {
                             fontSize: 13
                           ),),
                           const SizedBox(height: 5,),
-                          Text(data['user_answer'].toString(), style: TextStyle(color: Color(
-                              0xFF8C60CE)),),
+                          Text(data['user_answer'].toString(), style: const TextStyle(color: Color(
+                              0x9306F4E9)),),
                           const SizedBox(height: 2,),
                           Text(data['correct_answer'].toString(),
-                          style: TextStyle(color: Color(0x6406F4E9),),),
+                          style: const TextStyle(color: Color(0xDB3DCE3F),),),
                           const SizedBox(height: 10,),
                         ],
                       ),
